@@ -2,10 +2,10 @@
   "name": "fontawesome5demo",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
-    "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
-    "@fortawesome/free-regular-svg-icons": "^5.1.0-11",
-    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-brands-svg-icons": "^5.1.0",
+    "@fortawesome/free-regular-svg-icons": "^5.1.0",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0",
     "@rails/webpacker": "3.5"
   },
   "devDependencies": {

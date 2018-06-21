@@ -18,10 +18,10 @@ $ rails new fontawesome5demo --webpack
 ### 2. Add Font Awesome to package.json
 
 ```sh
-$ yarn add @fortawesome/fontawesome-svg-core --include-pre
-$ yarn add @fortawesome/free-brands-svg-icons --include-pre
-$ yarn add @fortawesome/free-regular-svg-icons --include-pre
-$ yarn add @fortawesome/free-solid-svg-icons --include-pre
+$ yarn add @fortawesome/fontawesome-svg-core@^1.2.0
+$ yarn add @fortawesome/free-brands-svg-icons@^5.1.0
+$ yarn add @fortawesome/free-regular-svg-icons@^5.1.0
+$ yarn add @fortawesome/free-solid-svg-icons@^5.1.0
 ```
 
 ### 3. Add Font Awesome JavaScript
