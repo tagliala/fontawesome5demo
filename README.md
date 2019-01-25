@@ -54,9 +54,9 @@ library.add(
   fasFaStar
 );
 
-// Change `observeMutationsRoot` value to `document.documentElement`
+// Change `observeMutationsRoot` value to `document`
 // to ensure compatibility with Turbolinks
-dom.watch({ observeMutationsRoot: document.documentElement })
+dom.watch({ observeMutationsRoot: document })
 ```
 
 Refer to https://fontawesome.com/how-to-use/use-with-node-js for the whole documentation
