@@ -1,7 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample application to show how to integrate Font Awesome 5 SVG Framework
+with Ruby on Rails 5.
+
+It will take advantage of the [webpacker](https://github.com/rails/webpacker)
+gem, with tree shaking support out of the box.
 
 ### Prerequisites
 
@@ -18,10 +21,10 @@ $ rails new fontawesome5demo --webpack
 ### 2. Add Font Awesome to package.json
 
 ```sh
-$ yarn add @fortawesome/fontawesome-svg-core@^1.2.0
-$ yarn add @fortawesome/free-brands-svg-icons@^5.1.0
-$ yarn add @fortawesome/free-regular-svg-icons@^5.1.0
-$ yarn add @fortawesome/free-solid-svg-icons@^5.1.0
+$ yarn add @fortawesome/fontawesome-svg-core@^1.2.12
+$ yarn add @fortawesome/free-brands-svg-icons@^5.6.3
+$ yarn add @fortawesome/free-regular-svg-icons@^5.6.3
+$ yarn add @fortawesome/free-solid-svg-icons@^5.6.3
 ```
 
 ### 3. Add Font Awesome JavaScript
