@@ -21,10 +21,10 @@ $ rails new fontawesome5demo --webpack
 ### 2. Add Font Awesome to package.json
 
 ```sh
-$ yarn add @fortawesome/fontawesome-svg-core@^1.2.12
-$ yarn add @fortawesome/free-brands-svg-icons@^5.6.3
-$ yarn add @fortawesome/free-regular-svg-icons@^5.6.3
-$ yarn add @fortawesome/free-solid-svg-icons@^5.6.3
+$ yarn add @fortawesome/fontawesome-svg-core@^1.2.13
+$ yarn add @fortawesome/free-brands-svg-icons@^5.7.0
+$ yarn add @fortawesome/free-regular-svg-icons@^5.7.0
+$ yarn add @fortawesome/free-solid-svg-icons@^5.7.0
 ```
 
 ### 3. Add Font Awesome JavaScript
@@ -54,12 +54,27 @@ library.add(
   fasFaStar
 );
 
+dom.watch()
+```
+
+Refer to https://fontawesome.com/how-to-use/use-with-node-js for the whole documentation
+
+#### Heads-up: Turbolinks support
+
+Font Awesome 5.7.0 supports Turbolinks out of the box. For older versions (< 5.7.0, >= 5.1.0),
+please replace:
+
+```js
+dom.watch()
+```
+
+with
+
+```js
 // Change `observeMutationsRoot` value to `document`
 // to ensure compatibility with Turbolinks
 dom.watch({ observeMutationsRoot: document })
 ```
-
-Refer to https://fontawesome.com/how-to-use/use-with-node-js for the whole documentation
 
 ### 4. Add the JavaScript pack to application layout
 

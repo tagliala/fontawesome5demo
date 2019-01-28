@@ -27,6 +27,4 @@ library.add(
   fasFaStar
 );
 
-// Change `observeMutationsRoot` value to `document`
-// to ensure compatibility with Turbolinks
-dom.watch({ observeMutationsRoot: document })
+dom.watch()
